@@ -95,7 +95,7 @@ body {
 .col-offset-12 {
   margin-left: 100%; }
 
-/*----------HEADER---------- */
+/*----------HEADER----------*/
 header {
   background-color: #313332;
   color: #FFF;
@@ -122,7 +122,7 @@ header {
   padding: 10px 0;
   margin: 20px; }
 
-/*---------HERO-------- */
+/*---------HERO--------*/
 .hero {
   height: calc(100vh - 100px);
   background: url("https://static.pexels.com/photos/34199/pexels-photo.jpg");
@@ -150,7 +150,7 @@ header {
 .bold-slogan {
   font-weight: 700; }
 
-/*---------BENEFITS---------- */
+/*---------BENEFITS----------*/
 .single-icon {
   text-align: center; }
 
@@ -162,7 +162,7 @@ header {
     .benefits .single-icon .fa:hover {
       color: #00c7e8;
       cursor: pointer;
-      transition: 0.3s; }
+      transition: .3s; }
     .benefits .single-icon .fa h2 {
       font-size: 30px;
       margin: 0;
@@ -172,7 +172,7 @@ header {
     letter-spacing: 1px;
     color: #9c9c9c; }
 
-/*---------FEATURED-------- */
+/*---------FEATURED--------*/
 .featured {
   text-align: center;
   padding-top: 50px; }
@@ -186,7 +186,7 @@ header {
     color: #9c9c9c;
     font-weight: 200; }
 
-/*-------GALLERY------- */
+/*-------GALLERY-------*/
 .gallery {
   margin-top: 40px;
   box-shadow: 2px 2px 20px #313234; }
@@ -222,7 +222,7 @@ header {
     opacity: 0; }
     .gallery .layer:hover {
       opacity: 1;
-      transition: 0.3s;
+      transition: .3s;
       cursor: pointer; }
   .gallery .icon-layer, .gallery .fa.fa-link, .gallery .fa.fa-search {
     color: #FFF;
@@ -236,13 +236,13 @@ header {
     border-radius: 25%;
     background-color: #FFF;
     color: black;
-    transition: 0.3s; }
+    transition: .3s; }
   .gallery .fa.fa-link {
     left: 40%; }
   .gallery .fa.fa-search {
     left: 60%; }
 
-/*------WORKERS------ */
+/*------WORKERS------*/
 .workers {
   text-align: center;
   margin-top: 100px; }
@@ -283,7 +283,7 @@ header {
   .worker-layer:hover {
     opacity: 1;
     cursor: pointer;
-    transition: 0.3s; }
+    transition: .3s; }
   .worker-layer h4 {
     position: absolute;
     top: 40%;
@@ -291,7 +291,7 @@ header {
     color: #FFF;
     transform: translate(-50%, -50%); }
 
-/*-----PROMOTION----- */
+/*-----PROMOTION-----*/
 .promotion {
   margin-top: 120px;
   background-image: url("http://eskipaper.com/images/dark-background-4.jpg");
@@ -319,7 +319,7 @@ header {
     padding: 10px;
     text-align: left; }
 
-/*-----NUMBERS----- */
+/*-----NUMBERS-----*/
 .numbers {
   text-align: center;
   margin-top: 100px; }
@@ -339,7 +339,7 @@ header {
 .number-size {
   font-size: 75px; }
 
-/*-----FOOTER----- */
+/*-----FOOTER-----*/
 footer {
   background-color: #313332;
   color: #FFF;
@@ -354,7 +354,7 @@ footer {
       text-transform: uppercase; }
       footer .footer-col h2:after {
         content: "             -----------";
-        letter-spacing: -0.1em;
+        letter-spacing: -.1em;
         font-weight: 200; }
     footer .footer-col p {
       font-size: 20px;
@@ -381,55 +381,42 @@ footer {
       transform: scale(1.4);
       opacity: 0.8;
       cursor: pointer;
-      transition: 0.3s; }
+      transition: .3s; }
 
 .copyrights {
   background-color: #252726;
   text-align: center;
   color: #FFF; }
 
-/*-----MEDIA QUERIES----- */
+/*-----MEDIA QUERIES-----*/
 @media (max-width: 767px) {
   /* For tablets: */
   .col-s-1 {
     width: 8.33%; }
-
   .col-s-2 {
     width: 16.66%; }
-
   .col-s-3 {
     width: 25%; }
-
   .col-s-4 {
     width: 33.33%; }
-
   .col-s-5 {
     width: 41.66%; }
-
   .col-s-6 {
     width: 50%; }
-
   .col-s-7 {
     width: 58.33%; }
-
   .col-s-8 {
     width: 66.66%; }
-
   .col-s-9 {
     width: 75%; }
-
   .col-s-10 {
     width: 83.33%; }
-
   .col-s-11 {
     width: 91.66%; }
-
   .col-s-12 {
     width: 100%; }
-
   .col-s-offset-0 {
     margin-left: 0; }
-
   header {
     max-height: initial; }
     header li {
@@ -437,27 +424,20 @@ footer {
       float: none; }
     header ul {
       padding: 0; }
-
   .nav {
     text-align: center;
     padding: 0;
     margin: 0; }
-
   .logo {
     text-align: center; }
-
   .gallery .layer {
     min-height: 240px; }
-
   .hero {
     height: 100vh; }
-
   .promotion {
     height: initial; }
-
   .text-properties h1 {
     text-align: center; }
-
   footer .footer-col {
     padding: 10px; }
     footer .footer-col h2 {
@@ -472,56 +452,43 @@ footer {
     text-align: center; }
   footer .social-media {
     text-align: center; } }
+
 @media (min-width: 768px) and (max-width: 900px) {
   header li:nth-child(4) {
     clear: right; } }
+
 @media (min-width: 768px) and (max-width: 1200px) {
   /* For desktop: */
   .col-m-1 {
     width: 8.33%; }
-
   .col-m-2 {
     width: 16.66%; }
-
   .col-m-3 {
     width: 25%; }
-
   .col-m-4 {
     width: 33.33%; }
-
   .col-m-5 {
     width: 41.66%; }
-
   .col-m-6 {
     width: 50%; }
-
   .col-m-7 {
     width: 58.33%; }
-
   .col-m-8 {
     width: 66.66%; }
-
   .col-m-9 {
     width: 75%; }
-
   .col-m-10 {
     width: 83.33%; }
-
   .col-m-11 {
     width: 91.66%; }
-
   .col-m-12 {
     width: 100%; }
-
   .col-m-offset-4 {
     margin-left: 33.33%; }
-
   header {
     max-height: initial; }
-
   .promotion {
     height: initial; }
-
   footer .footer-col {
     padding: 10px; }
     footer .footer-col h2 {
@@ -534,3 +501,5 @@ footer {
     text-align: center; }
   footer .social-media {
     text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
